@@ -1,0 +1,159 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    background: url("what-the-hex-dark.png") center repeat;
+}
+
+h1 {
+    margin: 5rem auto;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 4rem;
+    font-family: 'Merriweather';
+    width: 100%
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 1.5rem;
+    margin: 5rem 5rem;
+    cursor: pointer;
+
+}
+
+.card {
+    transition: transform 1s;
+    padding: 1rem;
+    border: 1px solid rgb(214, 214, 214);
+    color: #F7FCF7;
+    max-width: 100%;
+
+}
+
+/*
+.card a {
+    display: inline-block;
+}*/
+
+.card:hover {
+    transform: translateY(1rem);
+}
+
+.card>a>img {
+    width: 100%;
+}
+
+/*
+.thumbnail {
+    min-width: 238px;
+}*/
+
+
+.info {
+    padding: 0.5rem;
+    background: rgba(88, 87, 87, 0.719);
+    margin: 1rem 0;
+    font-family: 'Montserrat';
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    max-width: 70%;
+    min-width: 30%;
+    margin: 3rem auto;
+}
+
+button {
+    margin: 1rem;
+    padding: 1rem 2rem;
+    border: 2px solid rgb(116, 116, 116, 0.7);
+    background-color: rgb(116, 116, 116, 0.7);
+    font-size: 1.2rem;
+    font-family: 'Cairo';
+    border-radius: 2px;
+    color: whitesmoke;
+    width: 100%;
+}
+
+button:hover {
+    font-weight: bolder;
+    background-color: rgba(168, 168, 168, 0.932);
+    cursor: pointer;
+}
+
+
+
+/* FOOTER */
+
+
+footer {
+    background: rgb(20, 19, 19, 0.8);
+    margin: 0;
+    padding-bottom: 4vh;
+    text-align: center;
+    color: white;
+    font-family: 'Cairo';
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 100%;
+}
+
+.datos {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.left,
+.right,
+.num {
+    font-size: 3vh;
+    margin: 2rem;
+    align-items: center;
+    font-family: 'Cairo';
+    font-weight: 400;
+
+}
+
+.num {
+    margin-left: 0;
+}
+
+
+i {
+    color: rgb(151, 157, 165);
+    font-size: 5vh;
+    margin: 3rem 1rem;
+}
+
+
+i:hover {
+    color: rgb(255, 255, 255);
+}
+
+.fa-whatsapp {
+    margin: 0.5rem;
+    font-size: 3vh;
+}
+
+
+.ps {
+    text-align: center;
+    bottom: 0;
+
+}
+
+.ps>p,
+.ps .design {
+    max-width: 100%;
+}
